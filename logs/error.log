@@ -1,0 +1,13 @@
+[2025-09-27 17:40:44] ERROR: [POST] /api/v1/auth/login -> Cannot destructure property 'email' of 'req.body' as it is undefined.
+[2025-09-27 17:40:44] ERROR: TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.
+    at login (D:\Coding\Finzarc Projects\Haria Investments\server\controllers\authController.js:7:17)
+    at Layer.handleRequest (D:\Coding\Finzarc Projects\Haria Investments\server\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Coding\Finzarc Projects\Haria Investments\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Coding\Finzarc Projects\Haria Investments\server\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Coding\Finzarc Projects\Haria Investments\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Coding\Finzarc Projects\Haria Investments\server\node_modules\router\lib\layer.js:152:17)
+    at D:\Coding\Finzarc Projects\Haria Investments\server\node_modules\router\index.js:295:15
+    at processParams (D:\Coding\Finzarc Projects\Haria Investments\server\node_modules\router\index.js:582:12)
+    at next (D:\Coding\Finzarc Projects\Haria Investments\server\node_modules\router\index.js:291:5)
+    at Function.handle (D:\Coding\Finzarc Projects\Haria Investments\server\node_modules\router\index.js:186:3)
+[2025-09-27 18:34:28] ERROR: ❌ Email server connection failed:
